@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:            # auto-sync every hour
-    - cron: "0 * * * *"
+    - cron: "* * * * *"
   workflow_dispatch:   # allow manual sync
 
 jobs:
