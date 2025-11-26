@@ -4,7 +4,7 @@ on:
   push:                # sync when YOU push changes
     branches:
       - main
-  schedule:            # auto-sync every hour
+  schedule:            # auto-sync every minute 
     - cron: "* * * * *"
   workflow_dispatch:   # allow manual sync
 
